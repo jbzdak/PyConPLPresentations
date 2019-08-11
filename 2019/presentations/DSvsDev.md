@@ -13,6 +13,7 @@ Tematy:
 -- Pisanie dłuższego kodu przez NFS.
 - Niepushowanie "niegotowego" kodu do gita. Trzeba zrobić bardzo lekkie code review i pushować do repo. Lepiej robić dużo małych commitów, niż jeden duży.
 - DSowcy kochają Pandas, który jest super, dopóki dataset jest mały - wszystko jest trzymane w pamięci i powstają dziwne bottlenecki.
+- Lint --- czasem jest fajny, ale niektóre zasady są w praktyce trudne do spełnienia w sposób zwiększający jasność kodu. Na przykład ograniczenia ilości parametrów, długośc metod itp
 
 Take away: 
 - Zanim zaczniesz proponować rozwiązania nieprogramistom, musisz 3 razy dobrze dowiedzieć się co i jak robią. Procesy muszą z jednej strony zapewniać stabilną pracę, a z drugiej nie mogą być przeszkodą i utrudnieniem.
