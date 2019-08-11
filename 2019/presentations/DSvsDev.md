@@ -2,10 +2,11 @@ Wstęp:
 - Jak wygląda praca DS? Jaki jest flow projektu? Jakie są typowe elementy? Co to transformator? Co jest wynikiem prac DS? (Produkt, mikroserwis, prezentacja)
 
 Tematy:
-- DS kochają Condę
-- DS wszystko piszą w Jupyterze - fajne narzędzie do PROTOTYPOWANIA. Są korporacje które deployują notebooki na produkcję.
+- DS kochają Condę - conda freeze nie ma małych wersji, w Condzie paczki mają opóźnione wersje, przykład Pylint który się wysypał.
+- DS wszystko piszą w Jupyterze - fajne narzędzie do PROTOTYPOWANIA. Są korporacje które deployują notebooki na produkcję. Musi być używany jupytext, pliki ipynb fatalnie się diffują, muszą być dodane do gitignore.
 - Zmuszenie DS do pisania w PyCharmie
 - Testowanie kodu - testowanie modeli nie ma sensu, ale transformerów danych tak - przy czym jest trudne, bo dane składają się głównie z corner casów. Powinny być smoke testy całego flow. Sami wypuściliśmy niedziałające API.
+- Publikowanie modeli: Docker, modele baked-in w obrazie.
 - Praca na instancjach dla wielu osób jednocześnie. Dlaczego pracuje się na instancjach?
 -- Praca na małej próbce danych nie na instancji.
 -- Edycja pliku zdalna. Prototypowanie notebooków, ustawianie notebooków z certyfikatem https. 
