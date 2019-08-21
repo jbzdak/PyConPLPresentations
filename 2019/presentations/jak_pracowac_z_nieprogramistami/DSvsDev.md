@@ -15,12 +15,12 @@ TODO
 
 W teorii Data Scientist to jednorożec łączący umiejętności matematyczno-statystyczne i wiedzę dziedzinową z umiejętnością programowania i ogarnięciem informatycznym. W rzeczywistości to zwykły śmiertelnik, który stoi w bardzo szerokim rozkroku między tymi dziedzinami i bardzo stara się nie upaść.
 Do zadań takiego śmiertelnika należy przeprowadzanie projektów, które wyglądają do projektów stricte programistycznych, ale mają swoje specyficzne elementy. Zwykle przebiega to mniej więcej tak:
-- rozmowa z klientem, zebranie wymagań i potrzeb, określenia w osiągnięciu jakiego celu biznesowy ma pomóc model Machine Learningowy,
-- analiza i czyszczenie danych, co może zająć nawet 90% czasu całego projektu, jeśli dane zawierają dużo błędów i szumu,
-- napisanie transofrmerów - skryptów przetwarzających dane do postaci odpowiedniej dla algorytmów ML,
-- zaplanowanie eksperymentu oceniającego jakość modelu ML,
-- trenowanie modelu ML,
-- przekazanie wyników do klienta - co może być przygotowaniem statycznej prezentacji lub raportu z wnioskami z badania, ale też wydaniem w pełni funkcjonalnego mikroserwisu do samodzielnego wdrożenia przez klienta, albo wydaniem kompletnego produktu działającego na zadanie Machine Learning as a Service.
+1. rozmowa z klientem, zebranie wymagań i potrzeb, określenia w osiągnięciu jakiego celu biznesowy ma pomóc model Machine Learningowy,
+2. analiza i czyszczenie danych, co może zająć nawet 90% czasu całego projektu, jeśli dane zawierają dużo błędów i szumu,
+3. napisanie transformerów - skryptów przetwarzających dane do postaci odpowiedniej dla algorytmów ML,
+4. zaplanowanie eksperymentu oceniającego jakość modelu ML,
+5. trenowanie modelu ML,
+6. przekazanie wyników do klienta - co może być przygotowaniem statycznej prezentacji lub raportu z wnioskami z badania, ale też wydaniem w pełni funkcjonalnego mikroserwisu do samodzielnego wdrożenia przez klienta, albo wydaniem kompletnego produktu działającego na zadanie Machine Learning as a Service.
 
 Jak widać w procesie rzeczywiście niezbędne jest wypełnianie trzech różnych ról, co może prowadzić do suboptymalnej jakości finalnych rozwiązań. Dlatego wsparcie ze strony doświadczonych programistów jest nieocenione.
 
@@ -59,12 +59,11 @@ Ważne uwagi:
 
 ### Co nie działa
 
-Zrobienie samemu API tak żeby było elegancko i modnie. 
+Zrobienie samodzielnie API tak żeby było elegancko i zgodnie z obowiązującą modą programistyczną, ale niezrozumiale dla części nieprogramistycznej. Przepis na ciągłe ignorowanie API i świadczenie supportu programistycznego przy nawet najtrywialniejszych zmianach.
 
 ## Przeglądy kodu jako okazja do ulepszenia praktyk 
 
-Czasem przeglądy kodu są nie przyjemne, w naszej firmie przeglądy kodu *nie są* okazją do *gate keepingu* (tj. 
-zakładamy, że zgłaszający przegląd zawsze może kliknąć guzik **merge** i odpowiedzialne napisal kod który działa). 
+Czasem przeglądy kodu są nieprzyjemne, ale w naszej firmie dbamy, żeby było miło, więc przeglądy kodu *nie są* okazją do *gate keepingu* (tj. zakładamy, że zgłaszający przegląd zawsze może kliknąć guzik **merge** i odpowiedzialne napisal kod który działa). 
 
 Przeglądy są okazją powolnej poprawy praktyk w firmie. Osoby które więcej czasu spędziły programując napisą czystszy 
 kod, celem przelądu jest poprawa najważniejszych rzeczy w kodzie i zapewnienie że ktoś jeszcze go rozumie. 
