@@ -11,9 +11,18 @@ TODO
 1. Podane niżej pomysły sprawdzają się w "młodym" teamie w consultingowym startapie, robiącym dużo małych projektów. 
  
 
-### Praca DS
+### Kim jest Data Scientist i jak wygląda jej/jego praca
 
-- Jak wygląda praca DS? Jaki jest flow projektu? Jakie są typowe elementy? Co to transformator? Co jest wynikiem prac DS? (Produkt, mikroserwis, prezentacja)
+W teorii Data Scientist to jednorożec łączący umiejętności matematyczno-statystyczne i wiedzę dziedzinową z umiejętnością programowania i ogarnięciem informatycznym. W rzeczywistości to zwykły śmiertelnik, który stoi w bardzo szerokim rozkroku między tymi dziedzinami i bardzo stara się nie upaść.
+Do zadań takiego śmiertelnika należy przeprowadzanie projektów, które wyglądają do projektów stricte programistycznych, ale mają swoje specyficzne elementy. Zwykle przebiega to mniej więcej tak:
+- rozmowa z klientem, zebranie wymagań i potrzeb, określenia w osiągnięciu jakiego celu biznesowy ma pomóc model Machine Learningowy,
+- analiza i czyszczenie danych, co może zająć nawet 90% czasu całego projektu, jeśli dane zawierają dużo błędów i szumu,
+- napisanie transofrmerów - skryptów przetwarzających dane do postaci odpowiedniej dla algorytmów ML,
+- zaplanowanie eksperymentu oceniającego jakość modelu ML,
+- trenowanie modelu ML,
+- przekazanie wyników do klienta - co może być przygotowaniem statycznej prezentacji lub raportu z wnioskami z badania, ale też wydaniem w pełni funkcjonalnego mikroserwisu do samodzielnego wdrożenia przez klienta, albo wydaniem kompletnego produktu działającego na zadanie Machine Learning as a Service.
+
+Jak widać w procesie rzeczywiście niezbędne jest wypełnianie trzech różnych ról, co może prowadzić do suboptymalnej jakości finalnych rozwiązań. Dlatego wsparcie ze strony doświadczonych programistów jest nieocenione.
 
 ### Skąd pomysł na taki temat
 
